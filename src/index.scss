@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'nimbus';
+  src: url('assets/fonts/nimbus-sans-d-light.ttf') formats('truetype');
+  font-weight: normal;
+};
+
+@font-face {
+  font-family: 'nimbus';
+  src: url('assets/fonts/nimbus-sans-novus-medium.ttf') formats('truetype');
+  font-weight: 400;
+};
+
+@font-face {
+  font-family: 'nimbus';
+  src: url('assets/fonts/nimbus-sans-novus-bold.ttf') formats('truetype');
+  font-weight: bold;
+};
+
+body {
+  margin: 0;
+  font-family: 'nimbus',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+}
